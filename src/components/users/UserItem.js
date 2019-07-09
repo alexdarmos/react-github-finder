@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 //functional component, could be class based, just another way to do it
+//note user object prop being passed from Users.js
 const userItem = ({ user: { login, avatar_url, html_url } }) => {
   return (
     <div className="card text-center">
